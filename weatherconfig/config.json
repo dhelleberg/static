@@ -6,6 +6,12 @@
   "longitude": "6.9512663",
   "countryCode": "DE",
   "theme": "fully-transparent",
+  "textColor": "#e2e9e9e9",
+  "dataLabels": {
+    "boxes": {
+      "fill": "true"
+    }
+  },
   "provider": {
     "": "dwd.de"
   },
@@ -15,14 +21,50 @@
       30
     ]
   },
-  "weatherSymbols": {
-    "set": "symbolic-color"
+  "header": {
+    "location": {
+      "customColor": "#e0ec0a1f"
+    },
+    "floatRight": {
+      "": "true"
+    },
+    "sunriseSet": {
+      "": "true"
+    },
+    "summary": {
+      "": "true"
+    },
+    "fontSize": {
+      "subtitle": "18"
+    }
   },
+  "weatherSymbols": {
+    "set": "wunderground",
+    "scaleFactor": "2"
+  },
+  "airAndPollenBar": {},
   "daylightBands": {
-    "gradient": "horizontal"
+    "gradient": "horizontal",
+    "colors": "three",
+    "color": {
+      "a": "#62e9ff38",
+      "b": "#96f8ff2f",
+      "c": "#62e9ff38"
+    }
+  },
+  "sunriseLines": {
+    "": "true"
+  },
+  "temperature": {
+    "shadow": "false",
+    "lineWidth": "4",
+    "minMaxLabels": "true"
   },
   "sunshine": {
     "": "true"
+  },
+  "compression": {
+    "quality": "80.0"
   },
   "hierarchical": "true"
 }

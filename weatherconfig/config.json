@@ -1,0 +1,21 @@
+{
+  "token": "sub_IGN0ymvqhTz9aO",
+  "countryCodeLang": "DE",
+  "placeName": "Langenfeld",
+  "longPlaceName": "",
+  "latitude": "51.1191898",
+  "longitude": "6.9512663",
+  "countryCode": "DE",
+  "theme": "fully-transparent",
+  "timeRange": {
+    "hours": [
+      0,
+      30
+    ]
+  },
+  "weatherSymbols": {
+    "set": "classic-clear"
+  },
+  "hierarchical": "true"
+}
+

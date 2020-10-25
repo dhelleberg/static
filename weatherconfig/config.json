@@ -6,6 +6,9 @@
   "longitude": "6.9512663",
   "countryCode": "DE",
   "theme": "fully-transparent",
+  "provider": {
+    "": "dwd.de"
+  },
   "timeRange": {
     "hours": [
       0,
@@ -13,8 +16,13 @@
     ]
   },
   "weatherSymbols": {
-    "set": "classic-clear"
+    "set": "symbolic-color"
+  },
+  "daylightBands": {
+    "gradient": "horizontal"
+  },
+  "sunshine": {
+    "": "true"
   },
   "hierarchical": "true"
 }
-
